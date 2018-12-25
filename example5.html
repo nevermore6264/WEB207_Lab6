@@ -18,7 +18,7 @@
             <div class="form-group">
                 <input class="form-control" name="myInput" ng-model="myInput" required my-directive>
             </div>
-            <span>{{myForm.myInput.$valid == true ? 'Số Poly':'Số này không chia hết cho 2 và 9'}}</span>
+            <span style="color: red">{{myForm.myInput.$valid == true ? 'Số Poly':'Số này không chia hết cho 2 và 9'}}</span>
 
         </form>
     </div>
